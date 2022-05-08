@@ -1,0 +1,30 @@
+.brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand div {
+    flex: 1;
+    max-width: 100px;
+    min-width: 50px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgbtn:hover {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+    
+    background-color:rgb(189, 189, 189);
+    border-radius: 1em;
+    transition: all 0.5s;
+    
+  }
