@@ -4,7 +4,7 @@ import './navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
+/* nav bar */
   return (
     <div className="navbar">
       <div className="navbar-links">
